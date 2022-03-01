@@ -49,7 +49,7 @@ class LoginViewController: UIViewController {
         
         user.password = passwordField.text
         
-        user.password = "myPassword"
+//        user.password = "myPassword"
         
         user.signUpInBackground { (success, error) in
             

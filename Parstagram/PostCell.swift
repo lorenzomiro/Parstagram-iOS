@@ -9,8 +9,6 @@ import UIKit
 
 class PostCell: UITableViewCell {
     
-    @IBOutlet weak var tableView: UITableView!
-    
     @IBOutlet weak var photoView: UIImageView!
     
     @IBOutlet weak var usernameLabel: UILabel!
