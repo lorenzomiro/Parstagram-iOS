@@ -49,8 +49,29 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
                 
             }
             
+//            self.loadMorePosts()
             
+        }
+        
+    }
+    
+    func loadMorePosts() {
+        
+        let query = PFQuery(className: "Posts")
+        
+        query.includeKey("author")
+        
+        query.limit = query.limit + 10
+        
+        query.findObjectsInBackground() { (posts, error) in
             
+            if posts != nil {
+                
+                self.posts = posts!
+                
+                self.tableView.reloadData()
+                
+            }
         }
         
     }
@@ -97,5 +118,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         
     }
+
+
 
 }

@@ -11,6 +11,7 @@
 		4EB346F627CB3D42003FC41A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB346F527CB3D42003FC41A /* FeedViewController.swift */; };
 		4EB346F827CB5538003FC41A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB346F727CB5538003FC41A /* CameraViewController.swift */; };
 		4EB346FA27CB635B003FC41A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB346F927CB635B003FC41A /* PostCell.swift */; };
+		4EB3CC8C27CDB5B200813BDF /* Parstagram iOS Part 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4EB3CC8B27CDB5B200813BDF /* Parstagram iOS Part 1.gif */; };
 		4EFD091F27CB3602001B0701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD091E27CB3602001B0701 /* AppDelegate.swift */; };
 		4EFD092127CB3602001B0701 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD092027CB3602001B0701 /* SceneDelegate.swift */; };
 		4EFD092627CB3602001B0701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD092427CB3602001B0701 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		4EB346F527CB3D42003FC41A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		4EB346F727CB5538003FC41A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		4EB346F927CB635B003FC41A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		4EB3CC8B27CDB5B200813BDF /* Parstagram iOS Part 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Parstagram iOS Part 1.gif"; sourceTree = "<group>"; };
 		4EFD091B27CB3602001B0701 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFD091E27CB3602001B0701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EFD092027CB3602001B0701 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		4EFD091D27CB3602001B0701 /* Parstagram */ = {
 			isa = PBXGroup;
 			children = (
+				4EB3CC8B27CDB5B200813BDF /* Parstagram iOS Part 1.gif */,
 				4EFD091E27CB3602001B0701 /* AppDelegate.swift */,
 				4EFD092027CB3602001B0701 /* SceneDelegate.swift */,
 				4EFD092427CB3602001B0701 /* Main.storyboard */,
@@ -287,6 +290,7 @@
 			files = (
 				4EFD092B27CB3604001B0701 /* LaunchScreen.storyboard in Resources */,
 				4EFD092827CB3604001B0701 /* Assets.xcassets in Resources */,
+				4EB3CC8C27CDB5B200813BDF /* Parstagram iOS Part 1.gif in Resources */,
 				4EFD092627CB3602001B0701 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
